@@ -1,0 +1,48 @@
+    <div id="skill-container">
+        <div id="skill-introduction" class="animateme">
+            <p>
+              I love front end development and web page design. I have the following expertise:
+            </p>
+            <p>
+              HTML5, CSS3, Javascript, coding layouts, animations, building responsive web pages and single web page(MVVM) with Vue.js.
+            </p>
+            <p>
+              Moreover, I also know about some backend languages. For example, Java and Mysql. I built some web sites by Struts2, Spring and Mybatis.
+            </p>
+            <p>
+              I am also interested in the app developmemt, but I don't know about it yet. I would like to be a powerful full stack engineer.
+            </p>
+        </div>
+        <div id="myCanvasContainer">
+          <canvas width="700" height="500" id="myCanvas" style="padding-left:0%;">
+            <p>In Internet Explorer versions up to 8, things inside the canvas are inaccessible!</p>
+          </canvas>
+        </div>
+        <div id="tags" style="display:none;">
+           <ul>
+            <li><a href="#" target="_blank"><img src="img/HTML5.png" alt=""></a></li>
+            <li><a href="#" target="_blank"><img src="img/CSS3.png" alt=""></a></li>
+            <li><a href="#" target="_blank"><img src="img/javascript.png" alt=""></a></li>
+            <li><a href="#" target="_blank"><img src="img/mysql.png" alt=""></a></li>
+            <li><a href="#" target="_blank"><img src="img/struts2.png" alt=""></a></li>
+            <li><a href="#" target="_blank"><img src="img/maven.png" alt=""></a></li>
+            <li><a href="#" target="_blank"><img src="img/mybatis.png" alt=""></a></li>
+            <li><a href="#" target="_blank"><img src="img/bootstrap.png" alt=""></a></li>
+            <li><a href="#" target="_blank"><img src="img/jquery.png" alt=""></a></li>
+            <li><a href="#" target="_blank"><img src="img/vue-js.png" alt=""></a></li>
+            <li><a href="#" target="_blank"><img src="img/java.png" alt=""></a></li>
+           </ul>
+        </div>
+      </div>
+        <script type="text/javascript">
+          try {
+            TagCanvas.outlineMethod="none";
+            TagCanvas.wheelZoom=false;
+            TagCanvas.initial=[0.2,-0.1];
+            TagCanvas.Start('myCanvas','tags');
+          } catch(e) {
+            // something went wrong, hide the canvas container
+            document.getElementById('myCanvasContainer').style.display = 'none';
+          }
+
+        </script>
